@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>
+		Cartify-online shopping
+</title>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width = device-width , initial-scale=1">
+
+
+
+
+
+<style>
+body{background-color:#DCDCDC	}
+  input[type=text]{width : 60% }
+	.header{   background-image:linear-gradient(#008080,#00CED1,#00FFFF);
+               font-size:30px; 
+           }
+     .dropbtn {
+  background-color:#2F4F4F;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  border: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+	
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:#B0E0E6;}
+
+.abc{background-color:white}
+
+.footwears{background-image:linear-gradient(red,blue);
+           font-size:20px}
+           
+ .container {
+  position: relative;
+  text-align: center;
+  color: white;
+        }
+ .left {
+  position: absolute;
+  top: 90px;
+  left: 5px;
+  font-size:20px;
+}
+span{font-size:20px}
+span1{font-size:50px}
+span2{font-size:30px}
+span3{font-size:15px}
+
+.button{ background-color:black;
+         width:20%;
+         height:50px;
+         color:white;
+         border: 25 px #DCDCDC;
+         font-size:20px}
+.button a { background-color:black;
+         width:20%;
+         height:50px;
+         color:white;
+         border: 25 px #DCDCDC;
+         font-size:20px}
+
+
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+      <div class = "header">
+        <p style = "color:black;text-align:center"><span1>&#128722;</span1>
+<span1> &#8353;&#64;&#174;&#538;&#8505;&#401;&#165;</span1>
+<span2>.com</span2>
+        <span1>&#128722;</span1>
+        </p>
+       
+        <form action="abc.php">
+        <input type = "text" placeholder="Search for products,brand and more...">
+       <input type = "submit" value = "Search">
+       <button style="background-color:white;color:#00008B">
+       <span3><bold>Login</bold></span3>
+       </button>
+       <button class="button"><a href="https://www.mygov.in/covid-19">COVID-19<br>Information</a></button>
+        
+     </div>
+    <div class = "abc">
+<div class="dropdown">
+  <button class="dropbtn">Electronics</button>
+  <div class="dropdown-content">
+    <a href="#">Mobiles ></a>
+    <a href="#">Laptops></a>
+    <a href="#">Speakers></a>
+    <a href="#">Gaming & Accessories></a>
+    <a href="#">Cameras></a>
+    <a href="#">Computer Accessories></a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">TV & Appliances</button>
+  <div class="dropdown-content">
+    <a href="#">Smart TV></a>
+    <a href="#">Washing Machines></a>
+    <a href="#">Air Conditioners></a>
+    <a href="#">Refrigirators></a>
+    <a href="#">Kitchen Appliances></a>
+    <a href="#">Home Small Appliances></a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Men</button>
+  <div class="dropdown-content">
+    <a href="#">Footwear></a>
+    <a href="#">Men's Grooming></a>
+    <a href="#">Clothing></a>
+    <a href="#">Seasonal Wears></a>
+    <a href="#">Sports Wear></a>
+    <a href="#">Innerwear></a>
+    <a href="#">Watches></a>
+    <a href="#">Accessories></a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Women</button>
+  <div class="dropdown-content">
+    <a href="#">Western Wear></a>
+    <a href="#">Ethnic Wear></a>
+    <a href="#">Beauty Products & Grooming></a>
+    <a href="#">Jwellery> </a>
+    <a href="#">Footwear></a>
+    <a href="#">Swim & beachwear> </a>
+    <a href="#">Sportwear></a>
+    <a href="#">Accessories></a>
+    <a href="#">Trending!!></a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">New Born & Kids zone</button>
+  <div class="dropdown-content">
+    <a href="#">Kids' Clothing></a>
+    <a href="#">Toys></a>
+    <a href="#">Footwear></a>
+    <a href="#">BabyCare></a>
+    <a href="#">School Accessories></a>
+    
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Sports, Books & More...</button>
+  <div class="dropdown-content">
+    <a href="#">Sports></a>
+    <a href="#">Fitness></a>
+    <a href="#">Books & Stationery></a>
+    <a href="#">Tools></a>
+    <a href="#">Medical Supplies></a>
+    <a href="#">Gaming> </a>
+    <a href="#">Music></a>
+  </div>
+</div>
+
+<div class="dropdown">
+<button class="dropbtn"><span>&#128722;</span><br>Cart</button>
+</div>
+
+<div class="container">
+  
+  <img src="https://thebasementla.com/blog/wp-content/uploads/2020/03/corona-virus-1920x664.jpg" alt="corona" height=200px width=100%>
+  
+  <div class="left">WE ARE WORKING TO GET BACK ON TRACK...<br><br>Due to the present <bold>   COVID-19 PANDEMIC<br></bold>conditions,we are temporarily suspending our services.</div>
+
+<div class="footwears">
+<h3>Today's Deals</h3>
+<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQP3c1vYgF6BDB0vrlKRYgp990yARc1LNYRHy1ElL6lBU5r3xnI&usqp=CAU" width = 25% height = 150px></a>
+<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfqsyQavn9z52F0Pr-X9IxajBh7_D2_yVKB7atLbkSI6Yr4Wqm&usqp=CAU" width = 24% height = 150px></a>
+<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR11qbPlXaBkwHSqsY1bJuvcOfsZ66T7Jl1nffZVfaSMXrX_mTK&usqp=CAU" width = 24% height = 150px></a>
+<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbh0iuXJWbtWfGxF0TVPQnOHXPDZaRqnI_XbIiMh7wNx1a7KNv&usqp=CAU" width=24% height=150px></a>
+</div>
+<div class= "footwears">
+<h3>Best Sellers In Footwears<h3>
+<a href="#"><img src = "https://images-eu.ssl-images-amazon.com/images/G/31/img18/Shoes/May/MenShoesGW/harkum_2018-04-26T13-00_9647b9_1112610_1024x300._CB496450020_.jpg" width = 25% height = 150px></a>
+<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8tUswQ_Bse9fOS9yh9V3XChm2WPAqZJhR4jMY0VqJKOV0BaFJ&usqp=CAU" width=24% height = 150px></a>
+<a href="#"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIu2FzzcOr0TT4Gp_3ng2XKTA9jRbF84AIntKjgUNaL7ikOTY5&usqp=CAU"  width = 24% height = 150px></a>
+<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQiNCa6NgRTuKNFzH4VwHg9u_SuAUCdIu1fZSkc6u4UffHWWlIa&usqp=CAU" width=24% height=150px>
+</div>
+<div class = "footwears">
+<h3>Latest Launches In Smartphones</h3>
+<a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Apple/V159537101_iPhone11Pro_Graphics_QuadCard_420x420._SY300_CB435562153_.jpg" width=25% height=150px></a>
+<a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/OPPO/Reno3Pro/V177722033_IN_WLME_OPPO_Reno3_New_Launch_QuadCard_420x420_new._SY300_CB435606851_.jpg" width=25% height=150px></a>
+<a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/OnePlus/Jan/22/QuadCard_Template_420x420._SY300_CB425408660_.jpg" width=25% height=150px></a>
+<a href ="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Xiaomi/Updated/V184735274_WLM_Redmi_T9B_QuadCard_420x420._SY300_CB435607380_.jpg"  width=22% height=150px></a>
+
+
+</body>
+</html>
+
